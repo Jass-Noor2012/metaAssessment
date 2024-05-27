@@ -29,7 +29,7 @@ console.log("Minted: "+ name);
 // and print their metadata with console.log()
 function listNFTs () {
   for(let i = 0;i<NFTarr.length;i++){
-    console.log("\nNO.: "+ (i+1));
+    console.log("\nObject NO.: "+ (i+1));
     console.log("Name: "+ NFTarr[i].name);
     console.log("Sport: "+ NFTarr[i].Sport);
     console.log("Gender: "+ NFTarr[i].gender);
